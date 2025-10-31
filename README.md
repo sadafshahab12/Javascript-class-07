@@ -11,16 +11,16 @@ This structure is called the DOM, and it’s how JavaScript talks to and control
 HTML (structure) ↔ JavaScript (logic)
 
 DOM = Document + Object + Model
-Part	Description
-Document	Your HTML file — the content being rendered.
-Object	Every HTML element becomes an object when loaded.
-Model	The structured, tree-like representation of those objects.
-🪴 Example Visualization
-{
-  "name": "HTMLDocument",
-  "rootElement": "html",
-  "elements": ["head", "body"]
-}
+Part	          Description
+Document	      Your HTML file — the content being rendered.
+Object	        Every HTML element becomes an object when loaded.
+Model	          The structured, tree-like representation of those objects.
+ Example Visualization
+//{
+ // "name": "HTMLDocument",
+ // "rootElement": "html",
+//  "elements": ["head", "body"]
+//}
 
 🔍 DOM Methods — Finding Elements
 
