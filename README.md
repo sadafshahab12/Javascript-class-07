@@ -6,9 +6,9 @@ This structure is called the DOM, and it’s how JavaScript talks to and control
 
 **Think of the DOM as a bridge that connects:**
 
-- HTML (structure) ↔ ⚙️ JavaScript (logic)
+- HTML (structure) ↔ JavaScript (logic)
 
-🌳 DOM = Document + Object + Model
+DOM = Document + Object + Model
 
 - Document	Your HTML file — the content being rendered.
 - Object	Every HTML element becomes an object when loaded.
@@ -30,7 +30,7 @@ This structure is called the DOM, and it’s how JavaScript talks to and control
 .getElementById("idName")	Finds an element by its id	document.getElementById("heading1")
 .getElementsByClassName("className")	Finds all elements with a given class	document.getElementsByClassName("para1")
 .getElementsByTagName("tagName")	Finds all elements with a certain tag	document.getElementsByTagName("p")
-💡 DOM Properties — Changing Things Dynamically
+DOM Properties — Changing Things Dynamically
 
 Once you grab an element, you can change its content, style, and attributes.
 
