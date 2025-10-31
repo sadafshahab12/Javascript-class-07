@@ -3,7 +3,7 @@
 When your browser loads an HTML page, it doesn’t just display it —
 it transforms it into a structured tree of objects.
 
-Every HTML tag (<h1>, <p>, <div>, etc.) becomes a node in this tree.
+Every HTML tag becomes a node in this tree.
 This structure is called the DOM, and it’s how JavaScript talks to and controls HTML.
 
 🌉 Think of the DOM as a Bridge Between:
